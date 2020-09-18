@@ -1,17 +1,25 @@
 body {
   font-family: Roboto, sans-serif;
+  background-color: #071e3d;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #399da0;
+  background-color: #071e3d;
   padding: 8px;
 }
 
 header h1 {
-  color: #0e153a;
+  color: #21e6c1;
   padding-left: 16px;
+}
+p {
+  color: aliceblue;
+}
+
+div > h1 {
+  color: #21e6c1;
 }
 
 nav {
@@ -28,12 +36,12 @@ nav li {
 nav li a {
   margin-right: 16px;
   text-decoration: none;
-  color: #eeb388;
+  color: #21e6c1;
   padding: 8px;
 }
 
 nav li a:hover {
-  color: #eb8a45;
+  color: #278ea5;
 }
 
 .row {
@@ -43,12 +51,18 @@ nav li a:hover {
   align-items: center;
 }
 
+.row-item {
+  flex: 1;
+  margin: 15px;
+  justify-self: center;
+}
+
 footer {
-  background-color: #399da0;
+  background-color: #071e3d;
   padding: 8px;
 }
 
-footer h2 {
-  color: #0e153a;
+footer h4 {
+  color: #21e6c1;
   padding-left: 16px;
 }
