@@ -102,9 +102,10 @@ nav li a:hover {
   align-items: center;
 }
 
-.photos-row-item img {
+.photo {
   width: 28vw;
   height: 24vw;
+  transition: height 0.2s;
 }
 
 .photos-row-item {
@@ -123,10 +124,14 @@ nav li a:hover {
   font-size: 1.4vw;
 }
 
+.photos-row-item:hover .photo {
+  height: 23.4vw;
+}
+
 .image-text {
   background-color: #086972;
   width: 28vw;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   text-align: center;
   transition: font-size 0.2s;
 }
